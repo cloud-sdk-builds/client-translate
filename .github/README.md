@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-translate`](https://www.npmjs.com/package/@aws-sdk/client-translate/v/3.297.0).
+[`@aws-sdk/client-translate`](https://www.npmjs.com/package/@aws-sdk/client-translate/v/3.298.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.297.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.298.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-gDnft8krX845gEDKvr3Q48AmnHQmKs2ZU1bjqPSmC36JTbfjf3sP64e9sW67gZfY
+sha384-xjwJ0QfNTbjALLsNMqWp0o9mkwlJ+Qq5PLh0N+D3XBHqjLFxYm5kU1BFe7Jb53oO
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-translate": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.297.0/index.min.mjs"
+            "@aws-sdk/client-translate": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.298.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.297.0/index.min.mjs": "sha384-gDnft8krX845gEDKvr3Q48AmnHQmKs2ZU1bjqPSmC36JTbfjf3sP64e9sW67gZfY"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.298.0/index.min.mjs": "sha384-xjwJ0QfNTbjALLsNMqWp0o9mkwlJ+Qq5PLh0N+D3XBHqjLFxYm5kU1BFe7Jb53oO"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-translate": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.297.0/index.min.mjs"
+                        "@aws-sdk/client-translate": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.298.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.297.0/index.min.mjs": "sha384-gDnft8krX845gEDKvr3Q48AmnHQmKs2ZU1bjqPSmC36JTbfjf3sP64e9sW67gZfY"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-translate@3.298.0/index.min.mjs": "sha384-xjwJ0QfNTbjALLsNMqWp0o9mkwlJ+Qq5PLh0N+D3XBHqjLFxYm5kU1BFe7Jb53oO"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.297.0`)
+* Always pin to a specific version (`@3.298.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-translate/blob/refs/tags/3.297.0/LICENSE
+https://github.com/cloud-sdk-builds/client-translate/blob/refs/tags/3.298.0/LICENSE
 ```
 
 ---
